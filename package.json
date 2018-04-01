@@ -9,7 +9,7 @@
     "test:js": "jshint js/*.js",
     "init-project": "npm install && npm-run-all init:*",
     "init:dirs": "mkdir -p sass css vendor images js",
-    "init:files": "touch README.md index.html sass/style.scss js/script.js",
+    "init:files": "touch README.md index.html sass/style.scss js/scripts.js",
     "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
     "build": "npm-run-all build:* test",
     "build:clean": "rm -rf css/*.css",
